@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# apt update
+apt-get update 
+apt-get install -y --force-yes shorewall  wget inetutils-traceroute tcpdump curl bird
+
+#clean
+sudo apt-get autoremove -y
+sudo apt-get clean -y
+
+mkdir /run/bird
+
+rm -rf /root/.cache

@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# apt update
+apt-get update 
+apt-get install -y --force-yes  iperf  tcpdump curl hping3 apache2
+
+#clean
+apt-get -y autoremove 
+apt-get -y clean 
+rm -rf /root/.cache

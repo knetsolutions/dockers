@@ -1,0 +1,4 @@
+exabgp==3.4.26
+python-socketio==1.7.6
+netaddr==0.7.19
+Flask==0.12.2
