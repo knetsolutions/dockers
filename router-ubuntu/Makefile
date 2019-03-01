@@ -1,5 +1,5 @@
-REPOSITORY ?= router
-VERSION    ?= 1.2
+REPOSITORY ?= urouter
+VERSION    ?= 1.3
 
 REGISTRY   ?= knet
 IMAGE      ?= $(REGISTRY)/$(REPOSITORY):$(VERSION)
