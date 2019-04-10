@@ -3,7 +3,7 @@
 # apt update
 apt-get update 
 apt-get install -y --force-yes  iperf  tcpdump curl hping3 apache2
-
+sudo dpkg -i /tmp/files/hsflowd-ubuntu14_2.0.19-1_amd64.deb
 #clean
 apt-get -y autoremove 
 apt-get -y clean 

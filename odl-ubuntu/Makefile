@@ -1,8 +1,8 @@
-REPOSITORY ?= web-ubuntu
+REPOSITORY ?= odl-ubuntu
 VERSION    ?= 1
 BUILD_ID   ?= 1
 
-REGISTRY   ?= knet
+REGISTRY   ?= sureshkvl
 IMAGE      ?= $(REGISTRY)/$(REPOSITORY):$(VERSION)-$(BUILD_ID)
 
 BUILD_OPTIONS = -t $(IMAGE)
