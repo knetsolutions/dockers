@@ -1,6 +1,6 @@
-REPOSITORY ?= web-ubuntu
+REPOSITORY ?= u20-bird
 VERSION    ?= 1
-BUILD_ID   ?= 2
+BUILD_ID   ?= 0
 
 REGISTRY   ?= knet
 IMAGE      ?= $(REGISTRY)/$(REPOSITORY):$(VERSION)-$(BUILD_ID)
